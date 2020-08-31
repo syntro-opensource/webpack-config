@@ -23,6 +23,7 @@
   "homepage": "https://github.com/syntro-opensource/webpack-config#readme",
   "dependencies": {
     "webpack": "^4.44.1",
+    "webpack-bundle-analyzer": "^3.8.0",
     "webpack-cli": "^3.3.12"
   }
 }
