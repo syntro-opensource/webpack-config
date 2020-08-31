@@ -41,6 +41,7 @@ module.exports = (ENV, {
       },
       {
         test: /\.(png|jpe?g|gif|svg)$/,
+        exclude: new RegExp(`(${MODULES}|${THIRDPARTY})`),
         use: [{
           loader: 'file-loader',
           options: {
