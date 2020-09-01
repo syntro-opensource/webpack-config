@@ -5,6 +5,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+### Updated
+* @babel/preset-env from 7.11.0 to 7.11.5
+* eslint from 7.7.0 to 7.8.0
+* @babel/core from 7.11.4 to 7.11.5
 
 ## [0.1.0] - 2020-09-01
 * initial release
