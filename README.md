@@ -4,6 +4,15 @@ This NPM package provides a common webpack configuration, to be used accross
 projects built by Syntro GmbH. It serves as a source of truth for configuration
 and settings.
 
+## Pyilosophy
+The configuration in this package is intended to be used for projects,
+where assets need to be pre-packed and displayed to a web frontend.
+
+In the eyes of this package, every bundle
+* has an entrypoint named `bundle.js`
+* can contain `js` and styles
+* has a separate subfolder in a `src/` and `dist/` directory
+
 
 ## Example configuration
 
@@ -14,24 +23,16 @@ them into your main webpack config.
 const Path = require('path');
 const webpackConfig = require('@syntro-opensource/webpack-config');
 const {
-  resolveJS,
-  moduleJS,
-  pluginJS,
+  resolves,
+  modules,
+  plugins,
 } = webpackConfig;
 
 
 const ENV = process.env.NODE_ENV;
 const PATHS = {
-  // the root path, where your webpack.config.js is located.
-  ROOT: Path.resolve(),
-  // your node_modules folder name, or full path
   MODULES: 'node_modules',
-  // relative path from your css files to your other files, such as images and fonts
-  FILES_PATH: '../',
-  // thirdparty folder containing copies of packages which wouldn't be available on NPM
-  THIRDPARTY: 'thirdparty',
-  // the root path to your javascript source files
-  SRC: Path.resolve('client/src'),
+  THIRDPARTY: 'thirdparty'
 };
 
 const config = [
@@ -45,9 +46,9 @@ const config = [
         filename: '[name].bundle.js',
       },
       devtool: (ENV !== 'production') ? 'source-map' : '',
-      resolve: resolveJS(ENV, PATHS),
-      module: moduleJS(ENV, PATHS),
-      plugins: pluginJS(ENV, PATHS),
+      resolve: resolves(ENV, PATHS),
+      module: modules(ENV, PATHS),
+      plugins: plugins(ENV, PATHS),
     }
 ];
 
