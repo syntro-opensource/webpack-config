@@ -37,11 +37,11 @@ module.exports = (ENV, {
         options: {
           plugins: [
             autoprefixer({browsers:SUPPORTED_BROWSERS}),
-            require('postcss-inline-svg')({
-              paths: [
-                path.resolve(__dirname, 'client/src/img/')
-              ]
-            }),
+            // require('postcss-inline-svg')({
+            //   paths: [
+            //     path.resolve(__dirname, 'client/src/img/')
+            //   ]
+            // }),
             require('cssnano'),
           ]
         }
