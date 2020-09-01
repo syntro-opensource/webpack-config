@@ -4,7 +4,6 @@ module.exports = (ENV, {
 }) => {
   return {
     test: /\.(ttf|otf|eot|svg|woff(2)?)(\?[a-z0-9]+)?$/,
-    exclude: new RegExp(`(${MODULES}|${THIRDPARTY})`),
     use: [{
         loader: 'file-loader',
         options: {
