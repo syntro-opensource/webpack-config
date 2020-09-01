@@ -1,5 +1,9 @@
 # webpack-config
 
+![Dependabot](https://img.shields.io/badge/dependabot-active-brightgreen?logo=dependabot)
+![npm](https://img.shields.io/npm/dt/@syntro-opensource/webpack-config)
+![npm (scoped)](https://img.shields.io/npm/v/@syntro-opensource/webpack-config)
+
 This NPM package provides a common webpack configuration, to be used accross
 projects built by Syntro GmbH. It serves as a source of truth for configuration
 and settings.
