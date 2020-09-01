@@ -3,7 +3,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 /**
  * Export the scss compilation rule
  */
-module.exports(ENV, {MODULES, THIRDPARTY}) => {
+module.exports = (ENV, {MODULES, THIRDPARTY}) => {
   return {
     test: /\.(sa|sc|c)ss$/,
     exclude: new RegExp(`(${MODULES}|${THIRDPARTY})`),

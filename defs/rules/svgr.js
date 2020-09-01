@@ -1,4 +1,4 @@
-module.exports(ENV, {
+module.exports = (ENV, {
   MODULES,
   THIRDPARTY
 }) => {

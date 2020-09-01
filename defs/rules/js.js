@@ -1,6 +1,6 @@
 
 
-module.exports (ENV, {MODULES, THIRDPARTY}) => {
+module.exports = (ENV, {MODULES, THIRDPARTY}) => {
   return {
       test: /\.(js|jsx)$/,
       exclude: new RegExp(`(${MODULES}|${THIRDPARTY})`),
