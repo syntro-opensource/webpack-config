@@ -58,3 +58,5 @@ const config = [
 
 module.exports = config;
 ```
+
+You can then require the built bundles in your code or template.
