@@ -35,8 +35,14 @@ const {
 
 const ENV = process.env.NODE_ENV;
 const PATHS = {
+  // The path where your modules are located
   MODULES: 'node_modules',
-  THIRDPARTY: 'thirdparty'
+  // the root path, where your webpack.config.js is located.
+  ROOT: Path.resolve(),
+  // the root path to your source files
+  SRC: Path.resolve('app/client/src'),
+  // thirdparty folder containing copies of packages which wouldn't be available on NPM
+  THIRDPARTY: 'thirdparty',
 };
 
 const config = [

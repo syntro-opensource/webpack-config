@@ -5,6 +5,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+## [1.0.1] - 2020-09-01
+### Fixed
+* StyleLint now has a context.
 
 ## [1.0.0] - 2020-09-01
 ### Updated
@@ -16,6 +19,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * initial release
 
 
-[Unreleased]: https://github.com/syntro-opensource/webpack-config/compare/0.1.0..master
+[Unreleased]: https://github.com/syntro-opensource/webpack-config/compare/1.0.1..master
+[1.0.1]: https://github.com/syntro-opensource/webpack-config/compare/1.0.0..1.0.1
 [1.0.0]: https://github.com/syntro-opensource/webpack-config/compare/0.1.0..1.0.0
 [0.1.0]: https://github.com/syntro-opensource/silverstripe-ssto/tree/0.1.0

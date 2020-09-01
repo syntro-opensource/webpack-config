@@ -8,7 +8,7 @@ const StylelintPlugin = require('stylelint-webpack-plugin');
 /**
  * Exports the settings for plugins in webpack.config
  */
-module.exports = () => {
+module.exports = (ENV, {SRC}) => {
   return [
     process.env.ANALYZE_BUNDLE && new BundleAnalyzerPlugin({
       analyzerPort: 8080
@@ -17,7 +17,8 @@ module.exports = () => {
       filename: "bundle.css"
     }),
     new StylelintPlugin({
-      fix: true
+      fix: true,
+      context: SRC
     })
   ].filter(plugin => plugin);
 };
