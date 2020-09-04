@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.2] - 2020-09-04
+### Updated
+* @babel/core from 7.11.5 to 7.11.6 (#6)
+* sass-loader from 10.0.1 to 10.0.2 (#5)
+
 ## [1.0.1] - 2020-09-01
 ### Fixed
 * StyleLint now has a context.
@@ -20,7 +25,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * initial release
 
 
-[Unreleased]: https://github.com/syntro-opensource/webpack-config/compare/1.0.1..master
+[Unreleased]: https://github.com/syntro-opensource/webpack-config/compare/1.0.2..master
+[1.0.1]: https://github.com/syntro-opensource/webpack-config/compare/1.0.1..1.0.2
 [1.0.1]: https://github.com/syntro-opensource/webpack-config/compare/1.0.0..1.0.1
 [1.0.0]: https://github.com/syntro-opensource/webpack-config/compare/0.1.0..1.0.0
 [0.1.0]: https://github.com/syntro-opensource/silverstripe-ssto/tree/0.1.0
