@@ -21,15 +21,17 @@ module.exports = (ENV, {
       {
         loader: 'postcss-loader',
         options: {
-          plugins: [
-            autoprefixer({dangerousExtend: true}),
-            // require('postcss-inline-svg')({
-            //   paths: [
-            //     path.resolve(__dirname, 'client/src/img/')
-            //   ]
-            // }),
-            require('cssnano'),
-          ]
+          postcssOptions: {
+            plugins: [
+              autoprefixer({dangerousExtend: true}),
+              // require('postcss-inline-svg')({
+              //   paths: [
+              //     path.resolve(__dirname, 'client/src/img/')
+              //   ]
+              // }),
+              require('cssnano'),
+            ]
+          }
         }
       },
       {
