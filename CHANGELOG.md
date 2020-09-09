@@ -6,7 +6,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### ⬆️ Updated
-* postcss-loader from 3.0.0 to 4.0.0 (#7)
+* postcss-loader from 3.0.0 to 4.0.1 (#7 & #10)
+* css-loader from 4.2.2 to 4.3.0 (#9)
+* mini-css-extract-plugin from 0.11.0 to 0.11.1 (#8)
 
 ## [1.0.2] - 2020-09-04
 ### Updated
