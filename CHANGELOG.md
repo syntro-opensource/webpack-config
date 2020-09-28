@@ -30,6 +30,7 @@
 
 - Bump postcss-loader from 4.0.0 to 4.0.1 [\#10](https://github.com/syntro-opensource/webpack-config/pull/10)
 - Bump css-loader from 4.2.2 to 4.3.0 [\#9](https://github.com/syntro-opensource/webpack-config/pull/9)
+- Bump mini-css-extract-plugin from 0.11.0 to 0.11.1 [\#8](https://github.com/syntro-opensource/webpack-config/pull/8)
 - Bump postcss-loader from 3.0.0 to 4.0.0 [\#7](https://github.com/syntro-opensource/webpack-config/pull/7)
 
 ## [1.0.2](https://github.com/syntro-opensource/webpack-config/tree/1.0.2) (2020-09-04)
@@ -39,6 +40,7 @@
 - Bump @babel/core from 7.11.5 to 7.11.6 [\#6](https://github.com/syntro-opensource/webpack-config/pull/6)
 - Bump sass-loader from 10.0.1 to 10.0.2 [\#5](https://github.com/syntro-opensource/webpack-config/pull/5)
 - Bump eslint from 7.8.0 to 7.8.1 [\#4](https://github.com/syntro-opensource/webpack-config/pull/4)
+- Bump @babel/preset-env from 7.11.0 to 7.11.5 [\#3](https://github.com/syntro-opensource/webpack-config/pull/3)
 
 ## [1.0.1](https://github.com/syntro-opensource/webpack-config/tree/1.0.1) (2020-09-01)
 
@@ -46,8 +48,6 @@
 
 **🕸Dependencies:**
 
-- Bump mini-css-extract-plugin from 0.11.0 to 0.11.1 [\#8](https://github.com/syntro-opensource/webpack-config/pull/8)
-- Bump @babel/preset-env from 7.11.0 to 7.11.5 [\#3](https://github.com/syntro-opensource/webpack-config/pull/3)
 - Bump eslint from 7.7.0 to 7.8.0 [\#2](https://github.com/syntro-opensource/webpack-config/pull/2)
 - Bump @babel/core from 7.11.4 to 7.11.5 [\#1](https://github.com/syntro-opensource/webpack-config/pull/1)
 
