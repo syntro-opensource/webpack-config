@@ -13,10 +13,10 @@ jobs:
         output: AUTO_CHANGELOG.md
         releaseBranch: master
         pullRequests: true
-        configureSections: >
-        {
-          "dependencies":{
-            "prefix":"**⬆️ Dependency updates:**",
-            "labels":["dependencies"]
+        configureSections: >-
+          {
+            "dependencies":{
+              "prefix":"**⬆️ Dependency updates:**",
+              "labels":["dependencies"]
+            }
           }
-        }
