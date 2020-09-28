@@ -11,4 +11,4 @@ jobs:
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         output: AUTO_CHANGELOG.md
-        release-branch: master
+        releaseBranch: master
