@@ -29,12 +29,12 @@ jobs:
         pullRequests: true
         unreleased: true
         sinceTag: 1.0.4
-        breakingLabel: 💥Breaking
-        enhancementLabel: 🍰Enhancements
-        bugsLabel: 🐞Bugs
-        deprecatedLabel: 💀Deprecated
-        removedLabel: 🗑Removed
-        securityLabel: 🛡Security
+        breakingLabel: **💥Breaking:**
+        enhancementLabel: **🍰Enhancements:**
+        bugsLabel: **🐞Bugs:**
+        deprecatedLabel: **💀Deprecated:**
+        removedLabel: **🗑Removed:**
+        securityLabel: **🛡Security:**
         addSections: '{"dependencies":{"prefix":"**🕸Dependencies:**","labels":["dependencies"]}}'
     - name: push
       uses: github-actions-x/commit@v2.7
