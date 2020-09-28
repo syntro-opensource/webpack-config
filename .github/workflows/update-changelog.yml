@@ -1,7 +1,7 @@
 name: Update changelog
 on:
   push:
-    branches: [ feature-auto-changelog ]
+    branches: [ master ]
     paths-ignore:
       - CHANGELOG.md
 jobs:
@@ -11,7 +11,7 @@ jobs:
     - name: checkout
       uses: actions/checkout@v2
       with:
-        ref: feature-auto-changelog
+        ref: master
     # - name: generate changelog
     #   uses: docker://ferrarimarco/github-changelog-generator
     #   run: >-
@@ -40,7 +40,7 @@ jobs:
       uses: github-actions-x/commit@v2.7
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
-        push-branch: 'feature-auto-changelog'
+        push-branch: 'master'
         commit-message: 'Update Changelog'
         force-add: 'true'
         files: CHANGELOG.md
