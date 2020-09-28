@@ -2,12 +2,16 @@ name: Update changelog
 on:
   push:
     branches: [ feature-auto-changelog ]
+    paths-ignore:
+      - CHANGELOG.md
 jobs:
   update-changelog:
     runs-on: ubuntu-latest
     steps:
     - name: checkout
       uses: actions/checkout@v2
+      with:
+        ref: feature-auto-changelog
     # - name: generate changelog
     #   uses: docker://ferrarimarco/github-changelog-generator
     #   run: >-
@@ -16,10 +20,11 @@ jobs:
     #     --project $(echo "$GITHUB_REPOSITORY" | cut -d / -f 2- )
       # run: |
       #
-    - uses: heinrichreimer/github-changelog-generator-action@v2.1.1
+    - name: generate changelog
+      uses: heinrichreimer/github-changelog-generator-action@v2.1.1
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        output: AUTO_CHANGELOG.md
+        output: CHANGELOG.md
         releaseBranch: master
         pullRequests: true
         unreleased: true
@@ -31,3 +36,12 @@ jobs:
         removedLabel: 🗑 Removed
         securityLabel: 🛡 Security
         addSections: '{"dependencies":{"prefix":"**🕸Dependencies:**","labels":["dependencies"]}}'
+    - name: push
+      uses: github-actions-x/commit@v2.7
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        push-branch: 'feature-auto-changelog'
+        commit-message: 'Update Changelog'
+        force-add: 'true'
+        files: CHANGELOG.md
+        name: ChangelogBot
