@@ -3,7 +3,7 @@ on:
   push:
     branches: [ feature-auto-changelog ]
 jobs:
-  build:
+  update-changelog:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -13,3 +13,10 @@ jobs:
         output: AUTO_CHANGELOG.md
         releaseBranch: master
         pullRequests: true
+        configureSections: |
+        {
+          "dependencies":{
+            "prefix":"**⬆️ Dependency updates:**",
+            "labels":["dependencies"]
+          }
+        }
