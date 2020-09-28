@@ -28,7 +28,6 @@ jobs:
         releaseBranch: master
         pullRequests: true
         unreleased: true
-        sinceTag: 1.0.4
         breakingLabel: "**💥Breaking:**"
         enhancementLabel: "**🍰Enhancements:**"
         bugsLabel: "**🐞Bugs:**"
