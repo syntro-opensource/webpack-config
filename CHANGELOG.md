@@ -2,6 +2,10 @@
 
 ## [Unreleased](https://github.com/syntro-opensource/webpack-config/tree/HEAD)
 
+🍰
+
+- Create automatic Changlog action [\#21](https://github.com/syntro-opensource/webpack-config/pull/21)
+
 **🕸Dependencies:**
 
 - Bump sass from 1.26.10 to 1.26.11 [\#19](https://github.com/syntro-opensource/webpack-config/pull/19)
