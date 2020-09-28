@@ -24,4 +24,10 @@ jobs:
         pullRequests: true
         unreleased: true
         sinceTag: 1.0.4
-        addSections: '{"dependencies":{"prefix":"**⬆️Dependency-updates:**","labels":["dependencies"]}}'
+        breakingLabel: 💥 Breaking
+        enhancementLabel: 🍰 Enhancements
+        bugsLabel: 🐞 Bugs
+        deprecatedLabel: 💀 Deprecated
+        removedLabel: 🗑 Removed
+        securityLabel: 🛡 Security
+        addSections: '{"dependencies":{"prefix":"**🕸Dependencies:**","labels":["dependencies"]}}'
