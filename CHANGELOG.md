@@ -2,7 +2,7 @@
 
 ## [Unreleased](https://github.com/syntro-opensource/webpack-config/tree/HEAD)
 
-🍰
+🍰Enhancements
 
 - Create automatic Changlog action [\#21](https://github.com/syntro-opensource/webpack-config/pull/21)
 
