@@ -12,6 +12,7 @@ jobs:
     steps:
       - name: "📥 Check-out"
         uses: actions/checkout@v2
+      - run: git fetch --tags
       - name: "✏️ Generate changelog"
         id: generate-changelog
         uses: heinrichreimer/action-github-changelog-generator@v2.1
@@ -30,7 +31,7 @@ jobs:
           securityLabel: "**🛡Security:**"
           addSections: '{"dependencies":{"prefix":"**🕸Dependencies:**","labels":["dependencies"]}}'
       - name: "🚀 Create GitHub release"
-        uses: actions/create-release@v1.0.1
+        uses: actions/create-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
         with:
