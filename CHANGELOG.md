@@ -22,12 +22,12 @@
 
 - Bump stylelint from 13.7.0 to 13.7.1 [\#13](https://github.com/syntro-opensource/webpack-config/pull/13)
 - Bump mini-css-extract-plugin from 0.11.1 to 0.11.2 [\#12](https://github.com/syntro-opensource/webpack-config/pull/12)
+- Bump eslint from 7.8.1 to 7.9.0 [\#11](https://github.com/syntro-opensource/webpack-config/pull/11)
 
 ## [1.0.3](https://github.com/syntro-opensource/webpack-config/tree/1.0.3) (2020-09-09)
 
 **🕸Dependencies:**
 
-- Bump eslint from 7.8.1 to 7.9.0 [\#11](https://github.com/syntro-opensource/webpack-config/pull/11)
 - Bump postcss-loader from 4.0.0 to 4.0.1 [\#10](https://github.com/syntro-opensource/webpack-config/pull/10)
 - Bump css-loader from 4.2.2 to 4.3.0 [\#9](https://github.com/syntro-opensource/webpack-config/pull/9)
 - Bump mini-css-extract-plugin from 0.11.0 to 0.11.1 [\#8](https://github.com/syntro-opensource/webpack-config/pull/8)
