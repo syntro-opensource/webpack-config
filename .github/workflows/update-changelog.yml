@@ -23,4 +23,4 @@ jobs:
         releaseBranch: master
         pullRequests: true
         sinceTag: 1.0.4
-        configureSections: '{"dependencies":{"prefix":"**⬆️Dependency-updates:**","labels":["dependencies"]}}'
+        addSections: '{"dependencies":{"prefix":"**⬆️Dependency-updates:**","labels":["dependencies"]}}'
