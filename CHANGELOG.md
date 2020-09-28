@@ -12,6 +12,8 @@
 - Bump sass from 1.26.10 to 1.26.11 [\#19](https://github.com/syntro-opensource/webpack-config/pull/19)
 - Bump webpack-bundle-analyzer from 3.8.0 to 3.9.0 [\#18](https://github.com/syntro-opensource/webpack-config/pull/18)
 - Bump webpack from 4.44.1 to 4.44.2 [\#17](https://github.com/syntro-opensource/webpack-config/pull/17)
+- Bump postcss from 7.0.32 to 7.0.34 [\#16](https://github.com/syntro-opensource/webpack-config/pull/16)
+- Bump postcss-loader from 4.0.1 to 4.0.2 [\#15](https://github.com/syntro-opensource/webpack-config/pull/15)
 
 
 
