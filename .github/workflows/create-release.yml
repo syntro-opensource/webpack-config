@@ -31,6 +31,11 @@ jobs:
           removedLabel: "**🗑Removed:**"
           securityLabel: "**🛡Security:**"
           addSections: '{"dependencies":{"prefix":"**🕸Dependencies:**","labels":["dependencies"]}}'
+      - name: Read Changelog
+        id: changelog
+        uses: juliangruber/read-file-action@v1
+        with:
+          path: ./CHANGELOG.md
       - name: "🚀 Create GitHub release"
         uses: actions/create-release@v1
         env:
@@ -38,6 +43,6 @@ jobs:
         with:
           tag_name: ${{ github.ref }}
           release_name: Release ${{ github.ref }}
-          body: ${{ steps.generate-changelog.outputs.changelog }}
+          body: ${{ steps.changelog.outputs.content }}
           draft: true
           prerelease: false
