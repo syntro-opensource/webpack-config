@@ -1,6 +1,6 @@
 # Changelog
 
-## [Unreleased](https://github.com/syntro-opensource/webpack-config/tree/HEAD)
+## [v1.0.5](https://github.com/syntro-opensource/webpack-config/tree/v1.0.5) (2020-09-28)
 
 **🍰Enhancements:**
 
@@ -37,6 +37,7 @@
 
 **🕸Dependencies:**
 
+- Bump @babel/core from 7.11.5 to 7.11.6 [\#6](https://github.com/syntro-opensource/webpack-config/pull/6)
 - Bump sass-loader from 10.0.1 to 10.0.2 [\#5](https://github.com/syntro-opensource/webpack-config/pull/5)
 - Bump eslint from 7.8.0 to 7.8.1 [\#4](https://github.com/syntro-opensource/webpack-config/pull/4)
 
@@ -46,7 +47,6 @@
 
 **🕸Dependencies:**
 
-- Bump @babel/core from 7.11.5 to 7.11.6 [\#6](https://github.com/syntro-opensource/webpack-config/pull/6)
 - Bump @babel/preset-env from 7.11.0 to 7.11.5 [\#3](https://github.com/syntro-opensource/webpack-config/pull/3)
 - Bump eslint from 7.7.0 to 7.8.0 [\#2](https://github.com/syntro-opensource/webpack-config/pull/2)
 - Bump @babel/core from 7.11.4 to 7.11.5 [\#1](https://github.com/syntro-opensource/webpack-config/pull/1)
