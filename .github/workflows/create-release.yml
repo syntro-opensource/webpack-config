@@ -12,7 +12,8 @@ jobs:
     steps:
       - name: "📥 Check-out"
         uses: actions/checkout@v2
-      - run: git fetch --tags
+        with:
+          fetch-depth: 0
       - name: "✏️ Generate changelog"
         id: generate-changelog
         uses: heinrichreimer/action-github-changelog-generator@v2.1
