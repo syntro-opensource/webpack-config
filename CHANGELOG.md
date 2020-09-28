@@ -1,6 +1,6 @@
 # Changelog
 
-## [Unreleased](https://github.com/syntro-opensource/webpack-config/tree/HEAD)
+## [v1.0.5](https://github.com/syntro-opensource/webpack-config/tree/v1.0.5) (2020-09-28)
 
 **🍰Enhancements:**
 
@@ -15,6 +15,7 @@
 - Bump webpack from 4.44.1 to 4.44.2 [\#17](https://github.com/syntro-opensource/webpack-config/pull/17)
 - Bump postcss from 7.0.32 to 7.0.34 [\#16](https://github.com/syntro-opensource/webpack-config/pull/16)
 - Bump postcss-loader from 4.0.1 to 4.0.2 [\#15](https://github.com/syntro-opensource/webpack-config/pull/15)
+- Bump mini-css-extract-plugin from 0.11.1 to 0.11.2 [\#12](https://github.com/syntro-opensource/webpack-config/pull/12)
 
 
 
