@@ -22,5 +22,6 @@ jobs:
         output: AUTO_CHANGELOG.md
         releaseBranch: master
         pullRequests: true
+        unreleased: true
         sinceTag: 1.0.4
         addSections: '{"dependencies":{"prefix":"**⬆️Dependency-updates:**","labels":["dependencies"]}}'
