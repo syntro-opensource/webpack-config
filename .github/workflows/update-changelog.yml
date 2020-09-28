@@ -8,14 +8,18 @@ jobs:
     steps:
     - name: checkout
       uses: actions/checkout@v2
-    - name: generate changelog
-      uses: docker://ferrarimarco/github-changelog-generator
+    # - name: generate changelog
+    #   uses: docker://ferrarimarco/github-changelog-generator
+    #   run: >-
+    #     --token ${{ secrets.GITHUB_TOKEN }}
+    #     --user $(echo "$GITHUB_REPOSITORY" | cut -d / -f 1 )
+    #     --project $(echo "$GITHUB_REPOSITORY" | cut -d / -f 2- )
       # run: |
       #
-    # - uses: heinrichreimer/github-changelog-generator-action@v2.1.1
-    #   with:
-    #     token: ${{ secrets.GITHUB_TOKEN }}
-    #     output: AUTO_CHANGELOG.md
-    #     releaseBranch: master
-    #     pullRequests: true
-    #     configureSections: '{"dependencies":{"prefix":"**⬆️\ Dependency\ updates:**","labels":["dependencies"]}}'
+    - uses: syntro-opensource/github-changelog-generator-action@v2.1.1
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        output: AUTO_CHANGELOG.md
+        releaseBranch: master
+        pullRequests: true
+        configureSections: '{"dependencies":{"prefix":"**⬆️\ Dependency\ updates:**","labels":["dependencies"]}}'
