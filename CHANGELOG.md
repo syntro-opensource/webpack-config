@@ -8,7 +8,10 @@
 
 **🕸Dependencies:**
 
+- Bump eslint from 7.9.0 to 7.10.0 [\#20](https://github.com/syntro-opensource/webpack-config/pull/20)
 - Bump sass from 1.26.10 to 1.26.11 [\#19](https://github.com/syntro-opensource/webpack-config/pull/19)
+- Bump webpack-bundle-analyzer from 3.8.0 to 3.9.0 [\#18](https://github.com/syntro-opensource/webpack-config/pull/18)
+- Bump webpack from 4.44.1 to 4.44.2 [\#17](https://github.com/syntro-opensource/webpack-config/pull/17)
 
 
 
