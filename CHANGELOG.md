@@ -1,10 +1,22 @@
 <a name="unreleased"></a>
 ## [Unreleased]
 
+
+<a name="1.0.6"></a>
+## [1.0.6] - 2020-10-19
 ### 🍰 Added
 - chglog for automatic changelog generation
 
+### 🐞 Fixed
+- repository URL in chglog config
+
 ### 🧬 Dependencies
+- stylelint-webpack-plugin from 2.1.0 to 2.1.1 ([#33](https://github.com/syntro-opensource/webpack-config/issues/33))
+- [@babel](https://github.com/babel)/core from 7.11.6 to 7.12.3 ([#34](https://github.com/syntro-opensource/webpack-config/issues/34))
+- [@babel](https://github.com/babel)/preset-env from 7.11.5 to 7.12.1 ([#35](https://github.com/syntro-opensource/webpack-config/issues/35))
+- eslint from 7.10.0 to 7.11.0 ([#30](https://github.com/syntro-opensource/webpack-config/issues/30))
+- postcss-loader from 4.0.3 to 4.0.4 ([#31](https://github.com/syntro-opensource/webpack-config/issues/31))
+- url-loader from 4.1.0 to 4.1.1 ([#32](https://github.com/syntro-opensource/webpack-config/issues/32))
 - postcss-loader from 4.0.2 to 4.0.3 ([#24](https://github.com/syntro-opensource/webpack-config/issues/24))
 - mini-css-extract-plugin from 0.11.2 to 0.12.0 ([#27](https://github.com/syntro-opensource/webpack-config/issues/27))
 - sass from 1.26.11 to 1.27.0 ([#28](https://github.com/syntro-opensource/webpack-config/issues/28))
@@ -74,7 +86,8 @@
 <a name="0.1.0"></a>
 ## 0.1.0 - 2020-09-01
 
-[Unreleased]: https://github.com/syntro-opensource/webpack-config/compare/v1.0.5...HEAD
+[Unreleased]: https://github.com/syntro-opensource/webpack-config/compare/1.0.6...HEAD
+[1.0.6]: https://github.com/syntro-opensource/webpack-config/compare/v1.0.5...1.0.6
 [v1.0.5]: https://github.com/syntro-opensource/webpack-config/compare/1.0.4...v1.0.5
 [1.0.4]: https://github.com/syntro-opensource/webpack-config/compare/1.0.3...1.0.4
 [1.0.3]: https://github.com/syntro-opensource/webpack-config/compare/1.0.2...1.0.3
