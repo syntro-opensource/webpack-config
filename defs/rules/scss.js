@@ -1,5 +1,7 @@
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const autoprefixer = require('autoprefixer');
+const sassImplementation = require('sass');
+const cssnanoPlugin = require('cssnano');
 
 /**
  * Export the scss compilation rule
@@ -28,7 +30,7 @@ module.exports = (ENV, {
           //     path.resolve(__dirname, 'client/src/img/')
           //   ]
           // }),
-          require('cssnano'),
+          cssnanoPlugin,
         ],
       },
     },
@@ -36,7 +38,7 @@ module.exports = (ENV, {
   {
     loader: 'sass-loader',
     options: {
-      implementation: require('sass'),
+      implementation: sassImplementation,
     },
   },
   ],

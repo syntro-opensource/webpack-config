@@ -4,7 +4,8 @@
   "description": "A package to streamline webpack configurations",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint index.js defs/ --max-warnings=0",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
