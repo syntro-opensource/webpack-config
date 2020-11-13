@@ -2,6 +2,25 @@
 ## [Unreleased]
 
 
+<a name="1.1.0"></a>
+## [1.1.0] - 2020-11-13
+### 🍰 Added
+- test setup ([#56](https://github.com/syntro-opensource/webpack-config/issues/56))
+
+### 🧬 Dependencies
+- postcss from 7.0.34 to 8.1.7 ([#52](https://github.com/syntro-opensource/webpack-config/issues/52))
+- sass from 1.27.0 to 1.29.0 ([#59](https://github.com/syntro-opensource/webpack-config/issues/59))
+- [@babel](https://github.com/babel)/preset-react from 7.10.4 to 7.12.5 ([#58](https://github.com/syntro-opensource/webpack-config/issues/58))
+- babel-loader from 8.1.0 to 8.2.1 ([#57](https://github.com/syntro-opensource/webpack-config/issues/57))
+- css-loader from 4.3.0 to 5.0.1 ([#49](https://github.com/syntro-opensource/webpack-config/issues/49))
+- sass-loader from 10.0.3 to 10.1.0 ([#53](https://github.com/syntro-opensource/webpack-config/issues/53))
+- mini-css-extract-plugin from 0.12.0 to 1.3.1 ([#54](https://github.com/syntro-opensource/webpack-config/issues/54))
+- webpack-cli from 3.3.12 to 4.2.0 ([#55](https://github.com/syntro-opensource/webpack-config/issues/55))
+- [@babel](https://github.com/babel)/plugin-proposal-export-default-from from 7.10.4 to 7.12.1 ([#42](https://github.com/syntro-opensource/webpack-config/issues/42))
+- file-loader from 6.1.0 to 6.2.0 ([#48](https://github.com/syntro-opensource/webpack-config/issues/48))
+- sass-loader from 10.0.2 to 10.0.3 ([#37](https://github.com/syntro-opensource/webpack-config/issues/37))
+
+
 <a name="1.0.6"></a>
 ## [1.0.6] - 2020-10-19
 ### 🍰 Added
@@ -86,7 +105,8 @@
 <a name="0.1.0"></a>
 ## 0.1.0 - 2020-09-01
 
-[Unreleased]: https://github.com/syntro-opensource/webpack-config/compare/1.0.6...HEAD
+[Unreleased]: https://github.com/syntro-opensource/webpack-config/compare/1.1.0...HEAD
+[1.1.0]: https://github.com/syntro-opensource/webpack-config/compare/1.0.6...1.1.0
 [1.0.6]: https://github.com/syntro-opensource/webpack-config/compare/v1.0.5...1.0.6
 [v1.0.5]: https://github.com/syntro-opensource/webpack-config/compare/1.0.4...v1.0.5
 [1.0.4]: https://github.com/syntro-opensource/webpack-config/compare/1.0.3...1.0.4
