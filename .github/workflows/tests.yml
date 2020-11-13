@@ -1,0 +1,46 @@
+name: 🎭 Tests
+on:
+  push:
+    branches:
+      - develop
+  pull_request:
+    branches:
+      - master
+      - develop
+jobs:
+  build:
+    name: 🏗 Test a build
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    # Setup .npmrc file to publish to npm
+    - uses: actions/setup-node@v1
+      with:
+        node-version: '12.x'
+        registry-url: 'https://registry.npmjs.org'
+    - run: npm install
+    - run: npx webpack --config .buildtest/webpack.config.js --mode production
+  lint:
+    name: 🔮 Lint
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    # Setup .npmrc file to publish to npm
+    - uses: actions/setup-node@v1
+      with:
+        node-version: '12.x'
+        registry-url: 'https://registry.npmjs.org'
+    - run: npm install
+    - run: npm run lint
+  # jest:
+  #   name: 🤹‍♂️ Jest
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #   - uses: actions/checkout@v2
+  #   # Setup .npmrc file to publish to npm
+  #   - uses: actions/setup-node@v1
+  #     with:
+  #       node-version: '12.x'
+  #       registry-url: 'https://registry.npmjs.org'
+  #   - run: npm install
+  #   - run: npm run test

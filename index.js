@@ -1,5 +1,9 @@
+const modules = require('./defs/modules');
+const plugins = require('./defs/plugins');
+const resolves = require('./defs/resolve');
+
 module.exports = {
-  modules: require('./defs/modules'),
-  plugins: require('./defs/plugins'),
-  resolves: require('./defs/resolve'),
+  modules,
+  plugins,
+  resolves,
 };

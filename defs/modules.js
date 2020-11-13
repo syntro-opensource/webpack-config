@@ -11,14 +11,12 @@ const svgrRule = require('./rules/svgr.js');
  * @param {object} PATHS
  * @returns {{rules: Array.<*>}}
  */
-module.exports = ( ENV, PATHS ) => {
-  return {
-    rules: [
-      jsRule(ENV, PATHS),
-      scssRule(ENV, PATHS),
-      svgrRule(ENV, PATHS),
-      imageRule(ENV, PATHS),
-      fontRule(ENV, PATHS),
-    ].filter(rule => rule)
-  };
-};
+module.exports = (ENV, PATHS) => ({
+  rules: [
+    jsRule(ENV, PATHS),
+    scssRule(ENV, PATHS),
+    svgrRule(ENV, PATHS),
+    imageRule(ENV, PATHS),
+    fontRule(ENV, PATHS),
+  ].filter((rule) => rule),
+});
