@@ -8,6 +8,7 @@
     "test": "jest",
     "preversion": "git fetch",
     "version": "git-chglog -o CHANGELOG.md --next-tag $npm_config_next && git add -A",
+    "postversion": " git tag -d v$npm_config_next",
     "release": "[[ ! -z $npm_config_next ]] && npm version $npm_config_next"
   },
   "repository": {
