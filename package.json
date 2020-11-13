@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint index.js defs/ --max-warnings=0",
-    "test": "jest"
+    "test": "jest",
+    "release": "[[ ! -z $npm_config_next ]] && git-chglog -o CHANGELOG.md --next-tag $npm_config_next && npm version $npm_config_next"
   },
   "repository": {
     "type": "git",
