@@ -6,7 +6,8 @@
   "scripts": {
     "lint": "eslint index.js defs/ --max-warnings=0",
     "test": "jest",
-    "preversion": "git-chglog -o CHANGELOG.md --next-tag $npm_config_next && git add -A",
+    "preversion": "git fetch",
+    "version": "git-chglog -o CHANGELOG.md --next-tag $npm_config_next && git add -A",
     "release": "[[ ! -z $npm_config_next ]] && npm version $npm_config_next"
   },
   "repository": {
