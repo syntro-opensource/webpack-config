@@ -4,9 +4,7 @@ module.exports = (ENV, {
 }) => ({
   test: /\.svg$/,
   exclude: new RegExp(`(${MODULES}|${THIRDPARTY})`),
-  issuer: {
-    test: /\.jsx?$/,
-  },
+  issuer: /\.jsx?$/,
   use: [{
     loader: '@svgr/webpack',
   }, 'url-loader'],
