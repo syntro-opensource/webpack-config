@@ -2,6 +2,16 @@
 ## [Unreleased]
 
 
+<a name="1.2.0"></a>
+## [1.2.0] - 2020-11-26
+### 🧬 Dependencies
+- webpack-bundle-analyzer from 3.9.0 to 4.1.0 ([#61](https://github.com/syntro-opensource/webpack-config/issues/61))
+- stylelint from 13.7.2 to 13.8.0 ([#63](https://github.com/syntro-opensource/webpack-config/issues/63))
+- autoprefixer from 9.8.6 to 10.0.2 ([#62](https://github.com/syntro-opensource/webpack-config/issues/62))
+- postcss-loader from 4.0.4 to 4.1.0 ([#67](https://github.com/syntro-opensource/webpack-config/issues/67))
+- webpack from 4.44.2 to 5.7.0 ([#68](https://github.com/syntro-opensource/webpack-config/issues/68))
+
+
 <a name="1.1.0"></a>
 ## [1.1.0] - 2020-11-13
 ### 🍰 Added
@@ -105,7 +115,8 @@
 <a name="0.1.0"></a>
 ## 0.1.0 - 2020-09-01
 
-[Unreleased]: https://github.com/syntro-opensource/webpack-config/compare/1.1.0...HEAD
+[Unreleased]: https://github.com/syntro-opensource/webpack-config/compare/1.2.0...HEAD
+[1.2.0]: https://github.com/syntro-opensource/webpack-config/compare/1.1.0...1.2.0
 [1.1.0]: https://github.com/syntro-opensource/webpack-config/compare/1.0.6...1.1.0
 [1.0.6]: https://github.com/syntro-opensource/webpack-config/compare/v1.0.5...1.0.6
 [v1.0.5]: https://github.com/syntro-opensource/webpack-config/compare/1.0.4...v1.0.5
