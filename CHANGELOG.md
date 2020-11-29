@@ -2,6 +2,16 @@
 ## [Unreleased]
 
 
+<a name="1.2.1"></a>
+## [1.2.1] - 2020-11-29
+### 🧬 Dependencies
+- [@babel](https://github.com/babel)/core from 7.12.3 to 7.12.9 ([#70](https://github.com/syntro-opensource/webpack-config/issues/70))
+- webpack from 5.7.0 to 5.8.0 ([#71](https://github.com/syntro-opensource/webpack-config/issues/71))
+- [@babel](https://github.com/babel)/preset-env from 7.12.1 to 7.12.7 ([#73](https://github.com/syntro-opensource/webpack-config/issues/73))
+- postcss from 8.1.7 to 8.1.10 ([#72](https://github.com/syntro-opensource/webpack-config/issues/72))
+- babel-loader from 8.2.1 to 8.2.2 ([#69](https://github.com/syntro-opensource/webpack-config/issues/69))
+
+
 <a name="1.2.0"></a>
 ## [1.2.0] - 2020-11-26
 ### 🧬 Dependencies
@@ -115,7 +125,8 @@
 <a name="0.1.0"></a>
 ## 0.1.0 - 2020-09-01
 
-[Unreleased]: https://github.com/syntro-opensource/webpack-config/compare/1.2.0...HEAD
+[Unreleased]: https://github.com/syntro-opensource/webpack-config/compare/1.2.1...HEAD
+[1.2.1]: https://github.com/syntro-opensource/webpack-config/compare/1.2.0...1.2.1
 [1.2.0]: https://github.com/syntro-opensource/webpack-config/compare/1.1.0...1.2.0
 [1.1.0]: https://github.com/syntro-opensource/webpack-config/compare/1.0.6...1.1.0
 [1.0.6]: https://github.com/syntro-opensource/webpack-config/compare/v1.0.5...1.0.6
