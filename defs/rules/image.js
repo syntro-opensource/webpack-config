@@ -4,7 +4,7 @@ module.exports = (ENV, {
   THIRDPARTY,
 }) => ({
 /* eslint-enable  no-unused-vars */
-  test: /\.(png|jpe?g|gif|svg)$/,
+  test: /\.(png|jpe?g|gif)$/,
   use: [{
     loader: 'url-loader',
     options: {
