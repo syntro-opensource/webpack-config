@@ -5,7 +5,11 @@ module.exports = (ENV, {
   test: /\.svg$/,
   exclude: new RegExp(`(${MODULES}|${THIRDPARTY})`),
   issuer: /\.jsx?$/,
-  use: [{
-    loader: '@svgr/webpack',
-  }, 'url-loader'],
+  type: 'asset',
+  generator: {
+    filename: 'svg/[hash][ext][query]'
+  }
+  // use: [{
+  //   loader: '@svgr/webpack',
+  // }, 'url-loader'],
 });
