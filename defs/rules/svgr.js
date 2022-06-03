@@ -9,7 +9,4 @@ module.exports = (ENV, {
   generator: {
     filename: 'svg/[hash][ext][query]',
   },
-  // use: [{
-  //   loader: '@svgr/webpack',
-  // }, 'url-loader'],
 });
