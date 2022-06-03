@@ -7,8 +7,8 @@ module.exports = (ENV, {
   test: /\.(ttf|otf|eot|svg|woff(2)?)(\?[a-z0-9]+)?$/,
   type: 'asset/resource',
   generator: {
-    filename: 'fonts/[hash][ext][query]'
-  }
+    filename: 'fonts/[hash][ext][query]',
+  },
   // use: [{
   //   loader: 'file-loader',
   //   options: {

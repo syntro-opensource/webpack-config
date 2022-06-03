@@ -7,8 +7,8 @@ module.exports = (ENV, {
   issuer: /\.jsx?$/,
   type: 'asset',
   generator: {
-    filename: 'svg/[hash][ext][query]'
-  }
+    filename: 'svg/[hash][ext][query]',
+  },
   // use: [{
   //   loader: '@svgr/webpack',
   // }, 'url-loader'],

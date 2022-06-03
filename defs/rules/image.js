@@ -7,8 +7,8 @@ module.exports = (ENV, {
   test: /\.(png|jpe?g|gif)$/,
   type: 'asset/resource',
   generator: {
-    filename: 'images/[hash][ext][query]'
-  }
+    filename: 'images/[hash][ext][query]',
+  },
   // use: [{
   //   loader: 'url-loader',
   //   options: {
