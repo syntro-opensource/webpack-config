@@ -11,6 +11,9 @@
     "postversion": "git add -A",
     "release": "[[ ! -z $npm_config_next ]] && npm version $npm_config_next --git-tag-version=false"
   },
+  "engines": {
+    "node": ">= 14.15.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/syntro-opensource/webpack-config.git"
