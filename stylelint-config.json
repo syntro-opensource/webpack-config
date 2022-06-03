@@ -254,6 +254,7 @@
     ],
     "property-no-vendor-prefix": true,
     "rule-empty-line-before": null,
+    "scss/at-extend-no-missing-placeholder": null,
     "scss/dollar-variable-default": [true, { "ignore": "local" }],
     "selector-attribute-quotes": "always",
     "selector-class-pattern": null,
