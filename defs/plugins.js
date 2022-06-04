@@ -19,5 +19,7 @@ module.exports = (ENV, { SRC }) => [
     fix: true,
     context: SRC,
   }),
-  new ESLintPlugin({ fix: true, }),
+  new ESLintPlugin({
+    fix: true,
+  }),
 ].filter((plugin) => plugin);

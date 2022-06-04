@@ -1,5 +1,3 @@
-
-
 module.exports = (ENV, { MODULES, THIRDPARTY }) => ({
   test: /\.(js|jsx)$/,
   exclude: new RegExp(`(${MODULES}|${THIRDPARTY})`),
@@ -19,12 +17,5 @@ module.exports = (ENV, { MODULES, THIRDPARTY }) => ({
       ],
     },
   },
-  // {
-  //   // Lint using ESLint
-  //   loader: 'eslint-loader',
-  //   options: {
-  //     fix: true,
-  //   },
-  // },
   ],
 });
