@@ -2,6 +2,64 @@
 ## [Unreleased]
 
 
+<a name="1.3.0"></a>
+## [1.3.0] - 2022-06-04
+### 🍰 Added
+- better documentation for config files
+
+### 🔧 Changed
+- make use of new asset/* types for webpack 5
+- replaced `babel-eslint` with `[@babel](https://github.com/babel)/eslint-parser` ([#199](https://github.com/syntro-opensource/webpack-config/issues/199))
+
+### 🗑 Removed
+- `eslint-loader` in favour of `eslint-webpack-plugin` ([#262](https://github.com/syntro-opensource/webpack-config/issues/262))
+- `file-loader` and `url-loader` dependencies
+
+### 🧬 Dependencies
+- eslint from 7.32.0 to 8.17.0 ([#261](https://github.com/syntro-opensource/webpack-config/issues/261))
+- cssnano from 5.1.10 to 5.1.11 ([#258](https://github.com/syntro-opensource/webpack-config/issues/258))
+- Entire scss suite ([#260](https://github.com/syntro-opensource/webpack-config/issues/260))
+- postcss from 8.1.7 to 8.4.14
+- stylelint and stylelint-config-standard ([#255](https://github.com/syntro-opensource/webpack-config/issues/255))
+- cssnano from 4.1.11 to 5.1.10
+- [@syntro](https://github.com/syntro)-opensource/eslint-config-base from 1.0.2 to 1.1.0 ([#251](https://github.com/syntro-opensource/webpack-config/issues/251))
+- [@babel](https://github.com/babel)/preset-env from 7.12.7 to 7.18.2 ([#250](https://github.com/syntro-opensource/webpack-config/issues/250))
+- postcss from 8.1.10 to 8.4.14 ([#248](https://github.com/syntro-opensource/webpack-config/issues/248))
+- stylelint-config-standard from 20.0.0 to 22.0.0 ([#249](https://github.com/syntro-opensource/webpack-config/issues/249))
+- css-loader from 5.0.1 to 6.7.1 ([#246](https://github.com/syntro-opensource/webpack-config/issues/246))
+- [@babel](https://github.com/babel)/preset-react from 7.14.5 to 7.17.12 ([#247](https://github.com/syntro-opensource/webpack-config/issues/247))
+- stylelint-config-recommended-scss from 4.2.0 to 4.3.0 ([#245](https://github.com/syntro-opensource/webpack-config/issues/245))
+- [@babel](https://github.com/babel)/plugin-proposal-export-default-from from 7.12.1 to 7.17.12 ([#244](https://github.com/syntro-opensource/webpack-config/issues/244))
+- mini-css-extract-plugin from 1.3.1 to 2.6.0 ([#243](https://github.com/syntro-opensource/webpack-config/issues/243))
+- sass from 1.29.0 to 1.52.2 ([#242](https://github.com/syntro-opensource/webpack-config/issues/242))
+- stylelint-webpack-plugin from 2.1.1 to 3.3.0 ([#241](https://github.com/syntro-opensource/webpack-config/issues/241))
+- webpack-cli from 4.2.0 to 4.9.2 ([#237](https://github.com/syntro-opensource/webpack-config/issues/237))
+- sass-loader from 10.1.0 to 13.0.0 ([#238](https://github.com/syntro-opensource/webpack-config/issues/238))
+- stylelint from 13.8.0 to 13.13.1 ([#240](https://github.com/syntro-opensource/webpack-config/issues/240))
+- jquery from 3.5.1 to 3.6.0 ([#239](https://github.com/syntro-opensource/webpack-config/issues/239))
+- jest from 26.6.3 to 28.1.0 ([#235](https://github.com/syntro-opensource/webpack-config/issues/235))
+- cssnano from 4.1.10 to 4.1.11 ([#236](https://github.com/syntro-opensource/webpack-config/issues/236))
+- babel-loader from 8.2.2 to 8.2.5 ([#234](https://github.com/syntro-opensource/webpack-config/issues/234))
+- [@babel](https://github.com/babel)/core from 7.12.9 to 7.18.2 ([#233](https://github.com/syntro-opensource/webpack-config/issues/233))
+- stylelint-scss from 3.18.0 to 3.21.0 ([#232](https://github.com/syntro-opensource/webpack-config/issues/232))
+- postcss-loader from 4.1.0 to 7.0.0 ([#230](https://github.com/syntro-opensource/webpack-config/issues/230))
+- autoprefixer from 10.3.5 to 10.4.7 ([#228](https://github.com/syntro-opensource/webpack-config/issues/228))
+- webpack from 5.8.0 to 5.73.0 ([#231](https://github.com/syntro-opensource/webpack-config/issues/231))
+- bootstrap from 4.5.3 to 4.6.1 ([#203](https://github.com/syntro-opensource/webpack-config/issues/203))
+- webpack-bundle-analyzer from 4.1.0 to 4.5.0 ([#196](https://github.com/syntro-opensource/webpack-config/issues/196))
+- [@babel](https://github.com/babel)/preset-react from 7.12.5 to 7.14.5 ([#153](https://github.com/syntro-opensource/webpack-config/issues/153))
+- eslint from 7.13.0 to 7.32.0 ([#171](https://github.com/syntro-opensource/webpack-config/issues/171))
+- autoprefixer from 10.0.2 to 10.3.5 ([#183](https://github.com/syntro-opensource/webpack-config/issues/183))
+
+### Pull Requests
+- Merge pull request [#252](https://github.com/syntro-opensource/webpack-config/issues/252) from syntro-opensource/dependabot/npm_and_yarn/cssnano-5.1.10
+- Merge pull request [#256](https://github.com/syntro-opensource/webpack-config/issues/256) from syntro-opensource/change/use-asset-modules
+
+### BREAKING CHANGE
+
+
+
+
 <a name="1.2.1"></a>
 ## [1.2.1] - 2020-11-29
 ### 🧬 Dependencies
@@ -125,7 +183,8 @@
 <a name="0.1.0"></a>
 ## 0.1.0 - 2020-09-01
 
-[Unreleased]: https://github.com/syntro-opensource/webpack-config/compare/1.2.1...HEAD
+[Unreleased]: https://github.com/syntro-opensource/webpack-config/compare/1.3.0...HEAD
+[1.3.0]: https://github.com/syntro-opensource/webpack-config/compare/1.2.1...1.3.0
 [1.2.1]: https://github.com/syntro-opensource/webpack-config/compare/1.2.0...1.2.1
 [1.2.0]: https://github.com/syntro-opensource/webpack-config/compare/1.1.0...1.2.0
 [1.1.0]: https://github.com/syntro-opensource/webpack-config/compare/1.0.6...1.1.0
