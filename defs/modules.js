@@ -1,8 +1,8 @@
-const jsRule = require('./rules/js.js');
-const imageRule = require('./rules/image.js');
-const scssRule = require('./rules/scss.js');
-const fontRule = require('./rules/font.js');
-const svgrRule = require('./rules/svgr.js');
+const jsRule = require('./rules/js');
+const imageRule = require('./rules/image');
+const scssRule = require('./rules/scss');
+const fontRule = require('./rules/font');
+const svgrRule = require('./rules/svgr');
 
 /**
  * Exports settings for javascript modules

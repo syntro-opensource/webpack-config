@@ -17,12 +17,5 @@ module.exports = (ENV, { MODULES, THIRDPARTY }) => ({
       ],
     },
   },
-  {
-    // Lint using ESLint
-    loader: 'eslint-loader',
-    options: {
-      fix: true,
-    },
-  },
   ],
 });
