@@ -2,6 +2,15 @@
 ## [Unreleased]
 
 
+<a name="1.3.1"></a>
+## [1.3.1] - 2022-07-08
+### 🍰 Added
+- Documentation for import aliases
+
+### 🐞 Fixed
+- `eslint-webpack-plugin` now lints js- and jsx-files
+
+
 <a name="1.3.0"></a>
 ## [1.3.0] - 2022-06-04
 ### 🍰 Added
@@ -183,7 +192,8 @@
 <a name="0.1.0"></a>
 ## 0.1.0 - 2020-09-01
 
-[Unreleased]: https://github.com/syntro-opensource/webpack-config/compare/1.3.0...HEAD
+[Unreleased]: https://github.com/syntro-opensource/webpack-config/compare/1.3.1...HEAD
+[1.3.1]: https://github.com/syntro-opensource/webpack-config/compare/1.3.0...1.3.1
 [1.3.0]: https://github.com/syntro-opensource/webpack-config/compare/1.2.1...1.3.0
 [1.2.1]: https://github.com/syntro-opensource/webpack-config/compare/1.2.0...1.2.1
 [1.2.0]: https://github.com/syntro-opensource/webpack-config/compare/1.1.0...1.2.0
