@@ -109,4 +109,9 @@ Finally, add a script to your package.json file:
 }
 ```
 
-Now, build your bundles using `npm run build` or `npm run watch`
+Now, build your bundles using `npm run build` or `npm run watch`.
+
+## Docs
+
+* [📚 ESLint & Stylelint & Browserslist configuration](docs/config.md)
+* [📚 Import aliases](docs/eslint-import-resolver-alias.md)
