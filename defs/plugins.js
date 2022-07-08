@@ -21,5 +21,6 @@ module.exports = (ENV, { SRC }) => [
   }),
   new ESLintPlugin({
     fix: true,
+    extensions: ['js', 'jsx'],
   }),
 ].filter((plugin) => plugin);
