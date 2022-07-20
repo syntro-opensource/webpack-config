@@ -2,6 +2,21 @@
 ## [Unreleased]
 
 
+<a name="1.3.2"></a>
+## [1.3.2] - 2022-07-20
+### 🔧 Changed
+- Updates are correctly prefixed for chglog
+
+### 🧬 Dependencies
+- Bump postcss-loader from 7.0.0 to 7.0.1 ([#286](https://github.com/syntro-opensource/webpack-config/issues/286))
+- Bump stylelint-scss from 4.2.0 to 4.3.0 ([#287](https://github.com/syntro-opensource/webpack-config/issues/287))
+- Bump eslint from 8.17.0 to 8.20.0 ([#285](https://github.com/syntro-opensource/webpack-config/issues/285))
+- stylelint-config-standard from 25.0.0 to 26.0.0 ([#264](https://github.com/syntro-opensource/webpack-config/issues/264))
+- stylelint from 14.8.5 to 14.9.1 ([#267](https://github.com/syntro-opensource/webpack-config/issues/267))
+- sass from 1.52.2 to 1.53.0 ([#268](https://github.com/syntro-opensource/webpack-config/issues/268))
+- jest from 28.1.0 to 28.1.3 ([#270](https://github.com/syntro-opensource/webpack-config/issues/270))
+
+
 <a name="1.3.1"></a>
 ## [1.3.1] - 2022-07-08
 ### 🍰 Added
@@ -192,7 +207,8 @@
 <a name="0.1.0"></a>
 ## 0.1.0 - 2020-09-01
 
-[Unreleased]: https://github.com/syntro-opensource/webpack-config/compare/1.3.1...HEAD
+[Unreleased]: https://github.com/syntro-opensource/webpack-config/compare/1.3.2...HEAD
+[1.3.2]: https://github.com/syntro-opensource/webpack-config/compare/1.3.1...1.3.2
 [1.3.1]: https://github.com/syntro-opensource/webpack-config/compare/1.3.0...1.3.1
 [1.3.0]: https://github.com/syntro-opensource/webpack-config/compare/1.2.1...1.3.0
 [1.2.1]: https://github.com/syntro-opensource/webpack-config/compare/1.2.0...1.2.1
