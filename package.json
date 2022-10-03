@@ -60,7 +60,7 @@
   "devDependencies": {
     "@syntro-opensource/browserslist-config-base": "^1.0.0",
     "@syntro-opensource/eslint-config-base": "^1.0.2",
-    "bootstrap": "^4.5.3",
+    "bootstrap": "^5.2.2",
     "jest": "^29.0.3",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1"
