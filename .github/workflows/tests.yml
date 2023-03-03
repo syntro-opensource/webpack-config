@@ -29,19 +29,12 @@ jobs:
   lint:
     name: 🔮 Lint
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version:
-          - 14
-          - 16
-          - 18
-          - 19
     steps:
     - uses: actions/checkout@v2
     # Setup .npmrc file to publish to npm
     - uses: actions/setup-node@v3
       with:
-        node-version: ${{ matrix.node-version }}
+        node-version: 18
         registry-url: 'https://registry.npmjs.org'
     - run: npm install
     - run: npm run lint
