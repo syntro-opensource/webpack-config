@@ -2,6 +2,57 @@
 ## [Unreleased]
 
 
+<a name="1.4.0"></a>
+## [1.4.0] - 2023-03-03
+### 🍰 Added
+- Dependabot updates actions
+- test with all currently active Node.js versions ([#337](https://github.com/syntro-opensource/webpack-config/issues/337))
+
+### 🔧 Changed
+- Increased dependabot PR limit
+
+### 🧬 Dependencies
+- Bump bootstrap from 4.6.1 to 5.2.3 ([#324](https://github.com/syntro-opensource/webpack-config/issues/324))
+- Bump stylelint-scss from 4.3.0 to 4.4.0 ([#358](https://github.com/syntro-opensource/webpack-config/issues/358))
+- Bump stylelint-config-recommended-scss from 7.0.0 to 8.0.0 ([#357](https://github.com/syntro-opensource/webpack-config/issues/357))
+- Bump stylelint-config-standard-scss from 5.0.0 to 6.1.0 ([#356](https://github.com/syntro-opensource/webpack-config/issues/356))
+- Bump stylelint-webpack-plugin from 3.3.0 to 4.1.0 ([#355](https://github.com/syntro-opensource/webpack-config/issues/355))
+- Bump sass from 1.54.9 to 1.58.3 ([#354](https://github.com/syntro-opensource/webpack-config/issues/354))
+- Bump css-loader from 6.7.1 to 6.7.3 ([#352](https://github.com/syntro-opensource/webpack-config/issues/352))
+- Bump stylelint from 14.9.1 to 14.16.1 ([#353](https://github.com/syntro-opensource/webpack-config/issues/353))
+- Bump sass-loader from 13.0.2 to 13.2.0 ([#351](https://github.com/syntro-opensource/webpack-config/issues/351))
+- Bump mini-css-extract-plugin from 2.6.1 to 2.7.2 ([#350](https://github.com/syntro-opensource/webpack-config/issues/350))
+- Bump eslint from 8.23.1 to 8.35.0 ([#349](https://github.com/syntro-opensource/webpack-config/issues/349))
+- Bump eslint-webpack-plugin from 3.2.0 to 4.0.0 ([#348](https://github.com/syntro-opensource/webpack-config/issues/348))
+- Bump autoprefixer from 10.4.9 to 10.4.13 ([#347](https://github.com/syntro-opensource/webpack-config/issues/347))
+- Bump [@babel](https://github.com/babel)/plugin-proposal-export-default-from ([#346](https://github.com/syntro-opensource/webpack-config/issues/346))
+- Bump [@babel](https://github.com/babel)/preset-env from 7.19.0 to 7.20.2 ([#345](https://github.com/syntro-opensource/webpack-config/issues/345))
+- Bump webpack-cli from 4.10.0 to 5.0.1 ([#344](https://github.com/syntro-opensource/webpack-config/issues/344))
+- Bump stylelint-order from 5.0.0 to 6.0.2 ([#343](https://github.com/syntro-opensource/webpack-config/issues/343))
+- Bump [@babel](https://github.com/babel)/eslint-parser from 7.18.9 to 7.19.1 ([#342](https://github.com/syntro-opensource/webpack-config/issues/342))
+- Bump actions/checkout from 2 to 3 ([#339](https://github.com/syntro-opensource/webpack-config/issues/339))
+- Bump postcss-loader from 7.0.1 to 7.0.2 ([#341](https://github.com/syntro-opensource/webpack-config/issues/341))
+- Bump cssnano from 5.1.13 to 5.1.15 ([#340](https://github.com/syntro-opensource/webpack-config/issues/340))
+- Bump actions/setup-node from 1 to 3 ([#338](https://github.com/syntro-opensource/webpack-config/issues/338))
+- Bump babel-loader from 8.2.5 to 9.1.2 ([#334](https://github.com/syntro-opensource/webpack-config/issues/334))
+- Bump jquery from 3.6.1 to 3.6.3 ([#333](https://github.com/syntro-opensource/webpack-config/issues/333))
+- Bump webpack from 5.74.0 to 5.75.0 ([#335](https://github.com/syntro-opensource/webpack-config/issues/335))
+- Bump jest from 29.0.3 to 29.4.3 ([#336](https://github.com/syntro-opensource/webpack-config/issues/336))
+- Bump json5 from 1.0.1 to 1.0.2 ([#330](https://github.com/syntro-opensource/webpack-config/issues/330))
+- Bump postcss from 8.4.14 to 8.4.21 ([#329](https://github.com/syntro-opensource/webpack-config/issues/329))
+- Bump loader-utils from 2.0.2 to 2.0.4 ([#323](https://github.com/syntro-opensource/webpack-config/issues/323))
+- Bump webpack-bundle-analyzer from 4.5.0 to 4.8.0 ([#331](https://github.com/syntro-opensource/webpack-config/issues/331))
+- Bump [@babel](https://github.com/babel)/core from 7.18.9 to 7.21.0 ([#332](https://github.com/syntro-opensource/webpack-config/issues/332))
+- Bump [@babel](https://github.com/babel)/preset-env from 7.18.9 to 7.19.0 ([#306](https://github.com/syntro-opensource/webpack-config/issues/306))
+- Bump jest from 28.1.3 to 29.0.3 ([#305](https://github.com/syntro-opensource/webpack-config/issues/305))
+- Bump [@syntro](https://github.com/syntro)-opensource/eslint-config-base from 1.1.0 to 1.1.2 ([#304](https://github.com/syntro-opensource/webpack-config/issues/304))
+- Bump webpack from 5.73.0 to 5.74.0 ([#290](https://github.com/syntro-opensource/webpack-config/issues/290))
+- Bump cssnano from 5.1.12 to 5.1.13 ([#302](https://github.com/syntro-opensource/webpack-config/issues/302))
+- Bump jquery from 3.6.0 to 3.6.1 ([#303](https://github.com/syntro-opensource/webpack-config/issues/303))
+- Bump sass from 1.53.0 to 1.54.9 ([#300](https://github.com/syntro-opensource/webpack-config/issues/300))
+- Bump autoprefixer from 10.4.7 to 10.4.9 ([#301](https://github.com/syntro-opensource/webpack-config/issues/301))
+
+
 <a name="1.3.2"></a>
 ## [1.3.2] - 2022-07-20
 ### 🔧 Changed
@@ -207,7 +258,8 @@
 <a name="0.1.0"></a>
 ## 0.1.0 - 2020-09-01
 
-[Unreleased]: https://github.com/syntro-opensource/webpack-config/compare/1.3.2...HEAD
+[Unreleased]: https://github.com/syntro-opensource/webpack-config/compare/1.4.0...HEAD
+[1.4.0]: https://github.com/syntro-opensource/webpack-config/compare/1.3.2...1.4.0
 [1.3.2]: https://github.com/syntro-opensource/webpack-config/compare/1.3.1...1.3.2
 [1.3.1]: https://github.com/syntro-opensource/webpack-config/compare/1.3.0...1.3.1
 [1.3.0]: https://github.com/syntro-opensource/webpack-config/compare/1.2.1...1.3.0

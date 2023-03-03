@@ -1,6 +1,6 @@
 {
   "name": "@syntro-opensource/webpack-config",
-  "version": "1.3.2",
+  "version": "1.4.0",
   "description": "A package to streamline webpack configurations",
   "main": "index.js",
   "scripts": {
